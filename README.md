@@ -6,7 +6,7 @@ Questo progetto è una rubrica telefonica che consente agli utenti di aggiungere
 
 - `database.py`: Contiene le funzioni di backend per l' interazione col database.
 - `rubrica.py`: Contiene le classi principali `RubricaTelefonicaApp` e `ContattoEditor`, insieme alle rispettive interfacce grafiche.
-- `rubrica.sql`: File contenente la query per creare il database per la rubrica telefonica.
+- `rubrica.sql`: Contiene le query per la creazione del database per la rubrica telefonica.
 - `credenziali_database.properties`: File di configurazione per specificare i parametri di connessione al database.
 
 ## Istruzioni per l'uso
