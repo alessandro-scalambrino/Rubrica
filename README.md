@@ -1,4 +1,29 @@
-database.py contiene tutte le funzioni di backend per le interazioni del database
-rubrica.py contiene le classi principali RubricaTelefonicaApp e ContattoEditor e le rispettive gui.
-rubrica.sql contiene la query per montare il database
-credenziali_database.properties può essere utilizzato per specificare i parametri di connesione al db
+# Rubrica Telefonica
+
+Questo progetto è una rubrica telefonica che consente agli utenti di aggiungere, modificare ed eliminare contatti tramite un'interfaccia grafica.
+
+## Contenuti
+
+- `database.py`: Contiene le funzioni di backend per l' interazione col database.
+- `rubrica.py`: Contiene le classi principali `RubricaTelefonicaApp` e `ContattoEditor`, insieme alle rispettive interfacce grafiche.
+- `rubrica.sql`: File contenente la query per creare il database per la rubrica telefonica.
+- `credenziali_database.properties`: File di configurazione per specificare i parametri di connessione al database.
+
+## Istruzioni per l'uso
+1. Importare il database MySQL utilizzando `rubrica.sql`
+2. Specifica i parametri di connessione al database utilizzando 'credenziali_database.properties'
+3. Esegui il file `rubrica.py` per avviare l'applicazione della rubrica telefonica.
+4. Accedi utilizzando le credenziali fornite (email: ale.scala@gmail.com, pw: 6caratteri) o registrane di nuove.
+5. Utilizza l'applicazione per aggiungere, modificare o eliminare contatti.
+
+## Requisiti di sistema
+
+- Python 3.x
+- MySQL Server
+
+## Installazione
+
+1. Clona il repository:
+
+```bash
+git clone https://github.com/alessandro-scalambrino/rubrica-telefonica.git
