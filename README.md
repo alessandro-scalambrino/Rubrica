@@ -21,9 +21,5 @@ Questo progetto è una rubrica telefonica che consente agli utenti di aggiungere
 - Python 3.x
 - MySQL Server
 
-## Installazione
-
-1. Clona il repository:
-
-```bash
-git clone https://github.com/alessandro-scalambrino/rubrica-telefonica.git
+## Credits
+This project was developed by [Alessandro Scalambrino](https://github.com/alessandro-scalambrino)
